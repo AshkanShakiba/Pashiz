@@ -12,7 +12,7 @@ def get_account():
     if active_network in ["development", "ganache-local"]:
         return accounts[0]
     else:
-        return accounts.load("5Bd")
+        return accounts.load("5Bd")  # replace with your account
 
 
 def main():
